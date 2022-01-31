@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https: //fonts.googleapis.com/css2? family= Montserrat:wght@100;300;700 & family= Nunito:ital,wght@0,200;1,300;1,400 & display=swap"
+        rel="stylesheet">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="content">
+        <form action="" method="post" enctype="multipart/form-data">
+
+            <h2>Cadratro</h2>
+
+            <div class=name-form>
+                <lambel for="nome">nome</lambel><br>
+                <input type="text" name="nome" id=nome required>
+            </div>
+
+            <div class="email-form">
+                <lambel for="">E-mail</lambel><br>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="age-form">
+                <lambel for="idade">idade</lambel><br>
+                <input type="number" name="idade" id="idade" min="12" step="1">
+            </div>
+
+            <div class="birth-date">
+                <lambel for="data-de-nascimento">data de nacimento</lambel><br>
+                <input type="date" name="data-de-nascimento">
+            </div>
+
+            <div class="social-network">
+                <lambel>onde você possui conta:<br>
+
+                    <label>
+                        <input type="checkbox" name="instagram">
+                        instagram
+                    </label>
+                    <label>
+                        <input type="checkbox" name="facebook">
+                        facebook
+                    </label>
+
+                    <lambel>
+                        <input type="checkbox" name="youtube">
+                        youtube
+                    </lambel>
+            </div>
+
+            <div class="eyes">
+                <lambel>Cor dos Olhos</lambel>
+                <input type="color">
+            </div>
+
+            <div class="gender">
+                <lambel>sexo
+
+                    <input type="radio" name="genero" value="masculino"> masculino
+                    <input type="radio" name="genero" vulue="Feminino"> Feminino
+                </lambel>
+            </div>
+
+            <div class="city">
+                <lambel for="estado"> Cidade</lambel><br>
+                <select name=" Estado" id="estado">
+                    <option value="cidade"> Selecione</option>
+                    <option vule="rio"> rio </option>
+                    <option value="bahia"> bahia </option>
+                    <option value="sao paulo"> sao paulo </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                    <option value="fortaleza"> fortaleza </option>
+                </select>
+
+            </div>
+
+            
+                <lambel for=name>biografia
+
+                    <textarea name="bio"></textarea>
+                </lambel>
+            
+
+            <div class="Photograph">
+                <lambel>Foto do perfil</lambel><br>
+                <input type="file" name="arquivo" accept="image/*" />
+            </div>
+
+            <div class="phone">
+                <lambel>Telefone</lambel><br>
+                <input type="tel" name="telefone">
+            </div>
+
+            <div class="link">
+                <lambel>Link do Perfil do facebook</lambel><br>
+                <input type="url" name="url">
+            </div>
+
+            <div class="password">
+                <lambel>senha</lambel><br>
+                <input type="password" name="senha" min="6" max="8" required>
+            </div>
+
+
+            <button type="submit" name="submit">ENVIAR DADOS</button>
+            <BUtton type="reset" name="reset">LIMPAR</BUtton>
+
+        </form>
+    </div>
+
+
+
+
+</body>
+
+</html>

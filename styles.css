@@ -1,0 +1,123 @@
+*{
+box-sizing: border-box;
+font-family: 'Nunito', sans-serif;
+ 
+
+}
+
+.content{
+
+
+    border-style: double;
+    background-color: currentcolor;
+    width: 300px;
+    margin-left: 300px;
+    border: solid 1px rgb(241, 23, 23);
+    border-radius: 5px;
+}
+
+h2{
+    margin: 9px 5px 2px 5px;
+    position: absolute;
+    color: rgb(232, 232, 243);
+    font-size: 12px;
+    top: -8px;
+    background-color: white;
+    color: black;
+
+    
+}
+
+lambel { color: rgb(232, 232, 243);
+    font-size: 13px;
+
+ 
+}
+
+input{ color: rgb(7, 6, 6);
+    border-color: rgb(235, 5, 5);
+    border-radius: 5px;
+    
+
+
+}
+.name-form{
+display: block;
+padding: 10px 5px 4px 5px;
+
+  
+}
+
+.email-form{
+    padding: 10px 5px 4px 5px;
+
+}
+.age-form{
+    padding: 10px 5px 4px 5px;
+
+}
+
+.birth-date{
+    padding: 10px 5px 4px 5px;
+
+}
+.social-network{
+    padding: 10px 5px 4px 5px;
+    
+
+
+}
+
+.eyes{
+
+    padding: 10px 5px 4px 5px; 
+}
+.gender{
+
+    padding: 10px 5px 4px 5px; 
+}
+
+.city{
+
+    padding: 10px 5px 4px 5px; 
+}
+select{
+    border-color: red;
+    border-radius: 10px;
+    
+
+}
+
+
+.Photograph{
+    padding: 10px 5px 4px 5px;  
+}
+textarea{
+    display: block;
+border-color: 
+red; border-radius: 5px;
+    
+
+}
+.phone{
+    padding: 10px 5px 4px 5px;  
+
+}
+.link{
+
+    padding: 10px 5px 4px 5px;  
+
+}
+.password{
+    padding: 10px 5px 4px 5px;  
+
+}
+button{
+    padding: 10px 5px 4px 5px;  
+    margin-left: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: red;
+    background-color: rgb(247, 237, 235);
+    border-radius: 5px;
+}
